@@ -1,4 +1,0 @@
----
-layout: share
-share_url: https://zaorinu.github.io
----
