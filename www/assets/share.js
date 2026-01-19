@@ -1,7 +1,7 @@
 const shareData = {
     title: 'Luis Antonio',
     text: 'Check out this personal space:',
-    url: '{{ page.share_url }}'
+    url: 'zaorinu.github.io'
 };
 
 document.body.addEventListener('click', async () => {
