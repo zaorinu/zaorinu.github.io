@@ -1,11 +1,13 @@
 # Simple workflow for deploying static content to GitHub Pages
-# Adapted for https://zaorinu.github.io
+# Adapted for https://zaorinu.github.io (including "zaorinu.is-a.dev")
 name: Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+    paths:
+      - "www/**" # Changes only on www folder, where website content is hosted and distributed to anyone
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
